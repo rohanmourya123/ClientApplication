@@ -1,0 +1,51 @@
+p{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+canvas{
+  box-shadow:  -3px 2px 9px 6px black; 
+  cursor: pointer;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background-color: white; 
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top:15px;
+}
+
+.tools .color-field{
+    height: 35px;
+    width: 35px;
+    min-height: 35px;
+    min-width: 35px;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 50%;
+    /* cursor: pointer; */
+    border: 2px solid whitesmoke;
+    align-self: center;
+    margin: 0px 13px;
+
+}
+
+.tools .button{
+    align-self: center;
+    width: 100px;
+    height: 33px;
+    border: 2px solid whitesmoke;
+    background-color: rgba(0, 0, 0, 0.464);
+    color:whitesmoke;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 13px;
+}
